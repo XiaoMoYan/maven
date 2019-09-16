@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:p="http://www.springframework.org/schema/p"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd ">
+
+
+	<!--	方法一：-->
+	<!--	<bean id="computer" class="com.ghb.ioc.Computer">-->
+	<!--	<property name="dname" value="111"></property>-->
+	<!--	<property name="cpu" value="2222"></property>-->
+	<!--	<property name="list" ref="listtt"></property>-->
+	<!--	<property name="map" ref="mapp"></property>-->
+	<!--</bean>-->
+	<!--	<util:list id="listtt">-->
+	<!--		<value>111</value>-->
+	<!--		<value>222</value>-->
+	<!--		<value>333</value>-->
+	<!--	</util:list>-->
+	<!--	<util:map id="mapp">-->
+	<!--		<entry key="qq" value="1s4d2de"></entry>-->
+	<!--		<entry key="aa" value="ss1ee"></entry>-->
+	<!--		<entry key="azd" value="skkdkd"></entry>-->
+	<!--	</util:map>-->
+	<!--	<bean id="people" class="com.ghb.ioc.People">-->
+	<!--		<property name="name" value="999"></property>-->
+	<!--		<property name="computer" ref="computer"></property>-->
+	<!--	</bean>-->
+
+
+	<!--	方法二：-->
+
+<!--	连接数据库-->
+	<bean id="myDataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/form?serverTimezone=UTC" />
+		<property name="username" value="project" />
+		<property name="password" value="123456" />
+	</bean>
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource"/>
+		<property name="mapperLocations" value="classpath:mapper/*.xml"/>
+	</bean>
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.ghb.mapper"/>
+	</bean>
+
+</beans>

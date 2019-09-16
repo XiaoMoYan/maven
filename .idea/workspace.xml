@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maven:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bd53218-106f-49cd-91d0-cbc1eda2a1db" name="Default Changelist" comment="create project">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/action/Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/action/Upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/aop/LiNa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/aop/SleepHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/aop/Sleepable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/biz/UBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/biz/UserBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/blocker/fist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/dbhelp/DbHelep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/ioc/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/ioc/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/springaop/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/springaop/SystemLoAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TblUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/pintuer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner-shdow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dot-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dot-def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/j.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/passcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tmbg-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yzm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/theme-pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/theme-pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/Validform_v5.3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery1.42.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/pintuer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/xa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/back.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/contro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/NvLiu-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/action/Spring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/action/Upload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/aop/LiNa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/aop/SleepHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/aop/Sleepable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/biz/UBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/biz/UserBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/blocker/fist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/dbhelp/DbHelep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/ioc/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/ioc/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/springaop/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/springaop/SystemLoAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/Role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TblUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/META-INF/maven.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/action/Spring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/action/Upload.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/aop/LiNa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/aop/SleepHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/aop/Sleepable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/biz/UBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/biz/UserBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/blocker/fist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/dbhelp/DbHelep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/ioc/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/ioc/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/springaop/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/springaop/SystemLoAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/mapper/Role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/mapper/TblUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/c3p0-oracle-thin-extras-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.7.ga.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/junit-3.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/junit-jupiter-api-5.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/junit-platform-commons-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/ognl-2.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/struts2-core-2.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/struts2-json-plugin-2.1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/struts2-junit-plugin-2.1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/struts2-spring-plugin-2.0.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/lib/xwork-core-2.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/css/pintuer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/banner-shdow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/dot-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/dot-def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/j.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/login-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/passcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/tmbg-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/images/yzm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/img/theme-pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/img/theme-pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/Validform_v5.3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/jquery.min1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/jquery1.42.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/jquery1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/pintuer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/xa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/back.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/contro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/upload/GIF.gif" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/biz/UserBiz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/biz/UBiz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Upload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/contro.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="26" column="113" selection-start-line="26" selection-start-column="113" selection-end-line="26" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TblUser.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Spring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/mapper/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#74#127#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/entity/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>defa</find>
+      <find>copyfile</find>
+      <find>确认要删除吗？</find>
+      <find>laypage</find>
+      <find>已启用</find>
+      <find>已停用</find>
+      <find>sleepPointcut</find>
+      <find>org.apache.struts</find>
+      <find>s:property</find>
+      <find>var L = &quot;undefined&quot;, M;</find>
+      <find>findUserAll</find>
+      <find>jackson</find>
+      <find>member_del</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/js/layui.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/zs.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/action/Upload.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/dao/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Role.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/TblUser.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/blocker/fist.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/font.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/ioc/Computer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/ioc/People.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/xa.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/xadmin.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/aop/SleepHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/aop/LiNa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/springaop/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-add.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/dao/UDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/action/WayAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/action/AdminHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/dao/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/jquery1.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/back.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/biz/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/entity/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/springaop/SystemLoAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/Role.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/entity/Tect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/biz/UserBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/biz/UBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TblUser.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/contro.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ghb/action/Spring.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\download" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="10" />
+    <option name="width" value="727" />
+    <option name="height" value="708" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghb" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghb" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghb" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/git/house" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21796757" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\maven\src\main\java\com\ghb\entity" />
+      <recent name="E:\idea\maven\src\main\java\com\ghb\biz" />
+      <recent name="E:\idea\maven\src\main\webapp" />
+      <recent name="E:\idea\maven\src\main\java\com\ghb\action" />
+      <recent name="E:\idea\maven\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\maven\src\main\resources\mapper" />
+      <recent name="E:\idea\maven\src\main\resources" />
+      <recent name="E:\idea\maven\src\main\webapp\js" />
+      <recent name="E:\idea\maven\src" />
+      <recent name="E:\idea\maven\src\main\config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="unam" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.39">
+    <configuration name="Tect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghb.entity.Tect" />
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ghb.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contro.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/maven_war_exploded/jsp/contro.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.39" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/maven_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="maven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/maven_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_maven_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63760" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="maven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Tect" />
+      <item itemvalue="JavaScript Debug.contro.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.39" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tect" />
+        <item itemvalue="JavaScript Debug.contro.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bd53218-106f-49cd-91d0-cbc1eda2a1db" name="Default Changelist" comment="" />
+      <created>1567142540904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567142540904</updated>
+      <workItem from="1567142543874" duration="10283000" />
+      <workItem from="1567385783442" duration="2435000" />
+      <workItem from="1567396132983" duration="392000" />
+      <workItem from="1567404560345" duration="14831000" />
+      <workItem from="1567472269549" duration="4795000" />
+      <workItem from="1567479129353" duration="5995000" />
+      <workItem from="1567518700260" duration="8940000" />
+      <workItem from="1567558702077" duration="11028000" />
+      <workItem from="1567579960207" duration="10207000" />
+      <workItem from="1567609149748" duration="362000" />
+      <workItem from="1567645178306" duration="17901000" />
+      <workItem from="1567673109402" duration="2869000" />
+      <workItem from="1567676108592" duration="1446000" />
+      <workItem from="1567731295049" duration="8485000" />
+      <workItem from="1567747368276" duration="592000" />
+      <workItem from="1567750932679" duration="2526000" />
+      <workItem from="1567753557721" duration="5956000" />
+      <workItem from="1567818211859" duration="2674000" />
+      <workItem from="1567825183530" duration="131000" />
+      <workItem from="1567826200998" duration="5282000" />
+      <workItem from="1567838242930" duration="9466000" />
+      <workItem from="1567990846474" duration="6399000" />
+      <workItem from="1568009489191" duration="14604000" />
+      <workItem from="1568077089195" duration="3111000" />
+      <workItem from="1568100100583" duration="9953000" />
+      <workItem from="1568114513582" duration="949000" />
+      <workItem from="1568163556142" duration="1963000" />
+      <workItem from="1568165590548" duration="8784000" />
+      <workItem from="1568183088884" duration="6510000" />
+      <workItem from="1568190825693" duration="14043000" />
+      <workItem from="1568213179337" duration="6160000" />
+      <workItem from="1568249893027" duration="7088000" />
+      <workItem from="1568257051522" duration="11172000" />
+      <workItem from="1568600896557" duration="4653000" />
+      <workItem from="1568611181237" duration="4551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Text_zj - 2019.09.06 at 12h 01m 30s.xml">
+      <configuration name="Text.zj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 11h 11m 46s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 11h 27m 12s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 11h 27m 55s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 11h 30m 12s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 11h 31m 51s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 11h 34m 25s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep11 - 2019.09.09 at 11h 34m 38s.xml">
+      <configuration name="Text.sleep11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_sleep - 2019.09.09 at 12h 01m 24s.xml">
+      <configuration name="Text.sleep" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Text_tes - 2019.09.10 at 10h 55m 42s.xml">
+      <configuration name="Text.tes" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="226536000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.20726173" />
+      <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.29500756" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.502994" side_tool="true" weight="0.19969743" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4147541" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3371522" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.32786885" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.20272315" />
+      <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.29500756" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.502994" side_tool="true" weight="0.19969743" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.38297874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41571194" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/ioc/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/ioc/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/dao/UDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+    <entry file="jar://D:/apache-maven-3.6.1/download/com/opensymphony/xwork-core/2.1.6/xwork-core-2.1.6.jar!/com/opensymphony/xwork2/DefaultActionProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/xa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="583" column="1" selection-start-line="583" selection-start-column="1" selection-end-line="583" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/struts.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/AdminHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/dao/Text.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery1.42.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-add.xml" />
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.jar!/org/apache/commons/dbcp2/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/dao/DbHelp1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/WayAction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-tomcat-8.5.39/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-tomcat-8.5.39/lib/servlet-api.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/back.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/dbhelp/DbHelep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/aop/LiNa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/biz/Text.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/entity/Text.java" />
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/mybatis/mybatis-spring/2.0.2/mybatis-spring-2.0.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2349">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="472" selection-start-line="472" selection-end-line="472" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/springaop/SystemLoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="531" selection-start-line="531" selection-end-line="531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/download/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/Role.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/entity/Tect.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/UserAction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/biz/UserBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/biz/UBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/contro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="113" selection-start-line="26" selection-start-column="113" selection-end-line="26" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TblUser.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#74#127#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Upload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Spring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maven</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21796757" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.struts:struts2-core:2.1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21796757" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
