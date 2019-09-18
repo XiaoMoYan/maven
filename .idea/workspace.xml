@@ -6,7 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd53218-106f-49cd-91d0-cbc1eda2a1db" name="Default Changelist" comment="">
+    <list default="true" id="9bd53218-106f-49cd-91d0-cbc1eda2a1db" name="Default Changelist" comment="案例">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -105,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Edit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="263">
+              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -265,6 +266,24 @@
               <item name="maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -290,25 +309,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21796757" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea\maven\src\main\java\com\ghb\entity" />
-      <recent name="E:\idea\maven\src\main\java\com\ghb\biz" />
-      <recent name="E:\idea\maven\src\main\webapp" />
-      <recent name="E:\idea\maven\src\main\java\com\ghb\action" />
-      <recent name="E:\idea\maven\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ghb.action" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea\maven\src\main\resources\mapper" />
       <recent name="E:\idea\maven\src\main\resources" />
       <recent name="E:\idea\maven\src\main\webapp\js" />
       <recent name="E:\idea\maven\src" />
       <recent name="E:\idea\maven\src\main\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ghb.action" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\maven\src\main\java\com\ghb\entity" />
+      <recent name="E:\idea\maven\src\main\java\com\ghb\biz" />
+      <recent name="E:\idea\maven\src\main\webapp" />
+      <recent name="E:\idea\maven\src\main\java\com\ghb\action" />
+      <recent name="E:\idea\maven\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -480,7 +499,7 @@
       <workItem from="1568725467283" duration="13384000" />
       <workItem from="1568771587100" duration="2441000" />
       <workItem from="1568778765734" duration="62000" />
-      <workItem from="1568804310777" duration="1218000" />
+      <workItem from="1568804310777" duration="3604000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改">
       <created>1568620694120</created>
@@ -510,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568805105238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="案例">
+      <created>1568805663441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568805663441</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -546,7 +572,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268478000" />
+    <option name="totallyTimeSpent" value="270864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,9 +585,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.18229954" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.18229954" />
       <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.29500756" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +609,7 @@
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.32786885" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.2672131" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.5262295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -640,11 +665,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="E:/git/house" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="create project" />
     <MESSAGE value="第一次修改" />
     <MESSAGE value="人才" />
     <MESSAGE value="项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目" />
+    <MESSAGE value="案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="案例" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -962,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Edit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="263">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
         </state>
       </provider>
     </entry>
