@@ -258,7 +258,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -280,7 +290,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21796757" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -470,7 +480,7 @@
       <workItem from="1568725467283" duration="13384000" />
       <workItem from="1568771587100" duration="2441000" />
       <workItem from="1568778765734" duration="62000" />
-      <workItem from="1568804310777" duration="769000" />
+      <workItem from="1568804310777" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改">
       <created>1568620694120</created>
@@ -493,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568804785142</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="项目">
+      <created>1568805105238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568805105238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -529,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268029000" />
+    <option name="totallyTimeSpent" value="268478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,6 +559,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.18229954" />
       <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.29500756" />
