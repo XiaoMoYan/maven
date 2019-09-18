@@ -7,35 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bd53218-106f-49cd-91d0-cbc1eda2a1db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ghb/action/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/x-layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ghb/action/Edit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/action/Edit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/gl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/js/x-layui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ghb/action/Spring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ghb/action/Spring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ghb/biz/UBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ghb/biz/UBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ghb/biz/UserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ghb/biz/UserBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ghb/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ghb/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TblUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TblUser.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/contro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/contro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ghb/action/Spring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ghb/action/Spring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ghb/biz/UBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ghb/biz/UBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ghb/biz/UserBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ghb/biz/UserBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ghb/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ghb/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TblUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/TblUser.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/action/Spring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/action/Spring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/biz/UBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/biz/UBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/biz/UserBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/biz/UserBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/com/ghb/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/mapper/TblUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/mapper/TblUser.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/contro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/contro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT/jsp/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,7 +105,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Edit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="-304">
               <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
@@ -498,7 +470,7 @@
       <workItem from="1568725467283" duration="13384000" />
       <workItem from="1568771587100" duration="2441000" />
       <workItem from="1568778765734" duration="62000" />
-      <workItem from="1568804310777" duration="247000" />
+      <workItem from="1568804310777" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改">
       <created>1568620694120</created>
@@ -514,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568621168060</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="项目">
+      <created>1568804785142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568804785142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -550,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267507000" />
+    <option name="totallyTimeSpent" value="268029000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +542,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.18229954" />
       <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.29500756" />
@@ -647,7 +625,8 @@
     <MESSAGE value="create project" />
     <MESSAGE value="第一次修改" />
     <MESSAGE value="人才" />
-    <option name="LAST_COMMIT_MESSAGE" value="人才" />
+    <MESSAGE value="项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -965,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ghb/action/Edit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="-304">
           <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
