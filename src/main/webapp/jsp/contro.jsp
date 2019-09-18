@@ -36,11 +36,13 @@
                 </div>
                 <div class="layui-card-header">
                     <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                    <button class="layui-btn" onclick="xadmin.open('注册用户','<%=path%>/jsp/register.jsp',600,400)">
+                    <button class="layui-btn" onclick="xadmin.open('注册用户','<%=path%>/jsp/register.jsp',600,500)">
                         <i class="layui-icon"></i>注册</button>
                 </div>
-                <div class="layui-card-body layui-table-body layui-table-main" align="center">
-                    <table id="demo" class="layui-table" lay-filter="test" align="center">
+                <div class="layui-card-body" align="center" >
+                    <table class="layui-table" lay-filter="test" id="demo" align="center">
+                        <thead>
+                        </thead>
                     </table>
                 </div>
             </div>
@@ -48,34 +50,54 @@
     </div>
 </div>
 
-
+<%--表格数据--%>
 <script>
     layui.use('table', function(){
         var table = layui.table;
         //第一个实例
         table.render({
             elem: '#demo'
-            ,height: 300
-            ,limit: 2
+            ,height: 295
+            ,limit: 5
             ,id:'testReload'
             ,url: '<%=path%>/admin/listajax.action' //数据接口
             ,page: true //开启分页
             ,cols: [[ //表头
-                {type:'checkbox',title:'id',width:10}
-                ,{field: 'uid', title: '用户账号', width:100, sort: true}
+                {type:'checkbox',title:'id',width:80}
+                ,{field: 'uid', title: '用户账号', width:120, sort: true}
                 ,{field: 'uname', title: '用户名称', width:100}
-                ,{field: 'usex', title: '性别', width:80, sort: true}
-                ,{field: 'uxl', title: '学历', width:80}
-                ,{field: 'ustate', title: '状态', width:80,templet: '#ustate'}
-                ,{field: 'uzy', title: '职业', width: 80}
-                ,{field: 'uphone', title: '电话', width: 100, sort: true}
+                ,{field: 'usex', title: '性别', width:100, sort: true}
+                ,{field: 'uxl', title: '学历', width:100}
+                ,{field: 'ustate', title: '状态', width:100,templet: '#ustate'}
+                ,{field: 'uzy', title: '职业', width: 100}
+                ,{field: 'uphone', title: '电话', width: 150, sort: true}
                 ,{field: 'uemail', title: '邮件', width: 100}
-                ,{field: 'ucz', title: '操作', width: 100, sort: true,templet: '#ucz'}
+                ,{field: 'ucz', title: '操作', width: 150, sort: true,toolbar: '#ucz'}
             ]]
+        });
+        //监听行工具事件
+        table.on('tool(test)', function(obj){
+            var data = obj.data;
+            if(obj.event === 'del'){
+                layer.confirm('真的删除行么', function(index){
+                    fal("<%=path%>/edit/delete.action",data.uid);
+                    layer.close(index);
+                    obj.del();
+                });
+            } else if(obj.event === 'edit'){
+                layer.prompt({
+                    formType: 2
+                    ,value: data.email
+                }, function(value, index){
+                    obj.update({
+                        email: value
+                    });
+                    layer.close(index);
+                });
+            }
         });
         var $ = layui.$, active = {
             reload: function(){
-                alert("00000a");
                 var demoReload = $('#demoReload');
                 //执行重载
                 table.reload('testReload', {
@@ -93,8 +115,31 @@
             var type = $(this).data('type');
             active[type] ? active[type].call(this) : '';
         });
-    });
 
+        function fal(url,uid) {
+            $.ajax({
+                async: true,
+                type: "post",
+                url: url,
+                data: {"uid":uid},
+                success: function (dat) {
+                    if(dat==1){
+                        layer.msg("修改成功");
+                    }else{
+                        layer.msg("修改失败");
+                    }
+                    table.reload('testReload', {
+
+                        where:{
+                        }
+                    }, 'data');
+                },
+                error: function (dat) {
+                    layer.msg('错误');
+                }
+            })
+        }
+    });
 </script>
 
 <script type="text/html" id="ucz">
@@ -105,9 +150,8 @@
         <a onclick="x_admin_show('修改密码','member-password.html',600,400)" title="修改密码" href="javascript:;">
             <i class="layui-icon">&#xe631;</i>
         </a>
-        <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
-            <i class="layui-icon">&#xe640;</i>
-        </a>
+        <a title="删除" class="layui-btn-xs" lay-event="del">
+            <i class="layui-icon">&#xe640;</i></a>
     </div >
 </script>
 
@@ -124,10 +168,8 @@
         var laydate = layui.laydate;
         var  form = layui.form;
 
-
         // 监听全选
         form.on('checkbox(checkall)', function(data){
-
             if(data.elem.checked){
                 $('tbody input').prop('checked',true);
             }else{
@@ -150,16 +192,12 @@
     /*用户-停用*/
     function member_stop(obj,id){
         layer.confirm('确认要停用吗？',function(index){
-
             if($(obj).attr('title')=='启用'){
-
                 //发异步把用户状态进行更改
                 $(obj).attr('title','停用')
                 $(obj).find('i').html('&#xe62f;');
-
                 $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('停用');
                 layer.msg('停用!',{icon: 5,time:1000});
-
             }else{
                 $(obj).attr('title','启用')
                 $(obj).find('i').html('&#xe601;');
@@ -170,17 +208,6 @@
 
         });
     }
-    /*用户-删除*/
-    function member_del(obj,id){
-        layer.confirm('确认要删除吗？',function(index){
-            //发异步删除数据
-            $(obj).parents("tr").remove();
-            layer.msg('已删除!',{icon:1,time:1000});
-        });
-    }
-
-
-
     function delAll (argument) {
         var ids = [];
         // 获取选中的id
@@ -189,7 +216,6 @@
                 ids.push($(this).val())
             }
         });
-
         layer.confirm('确认要删除吗？'+ids.toString(),function(index){
             //捉到所有被选中的，发异步进行删除
             layer.msg('删除成功', {icon: 1});
@@ -197,56 +223,6 @@
         });
     }
 </script>
-
-
-
-
-<%--<div class="panel admin-panel">--%>
-<%--    <div class="panel-head"><strong class="icon-reorder">用户列表</strong></div>--%>
-<%--    <div class="padding border-bottom">--%>
-<%--        <button class="layui-btn" onclick="member_add('添加用户','<%=path%>/jsp/register.jsp',600,300)" >--%>
-<%--        <i class="layui-icon"></i>用户注册</button>--%>
-<%--    </div>--%>
-<%--    <table class="table table-hover text-center" border="1">--%>
-<%--        <tr>--%>
-<%--            <th width="5%">用户账户</th>--%>
-<%--            <th>用户名称</th>--%>
-<%--            <th>性别</th>--%>
-<%--            <th>学历</th>--%>
-<%--            <th>职业</th>--%>
-<%--            <th>电话号码</th>--%>
-<%--            <th width="250">操作</th>--%>
-<%--        </tr>--%>
-<%--        <tr>--%>
-<%--                <c:forEach items="${li}" var="l">--%>
-<%--                <td>${l.uid}</td>--%>
-<%--                <td>${l.uname}</td>--%>
-<%--                <td>${l.usex}</td>--%>
-<%--                <td>${l.uxl}</td>--%>
-<%--                <td>${l.uzy}</td>--%>
-<%--                <td>${l.uphone}</td>--%>
-<%--            <td>--%>
-<%--                <div class="button-group">--%>
-<%--                    <a type="button" class="button border-main" href="#"><span class="icon-edit"></span>修改</a>--%>
-<%--                    <a class="button border-red" href="javascript:void(0)" onclick="return del('${l.uid}')"><span class="icon-trash-o"></span> 删除</a>--%>
-<%--                </div>--%>
-<%--            </td>--%>
-<%--            </c:forEach>--%>
-<%--        </tr>--%>
-
-<%--    </table>--%>
-<%--</div>--%>
-<%--<script>--%>
-<%--    function del(id){--%>
-<%--        alert("id"+"111"+id);--%>
-<%--        if(confirm("您确定要删除吗?")){--%>
-<%--        }--%>
-<%--    }--%>
-<%--    function member_add(title,url,w,h){--%>
-<%--        x_admin_show(title,url,w,h);--%>
-<%--    }--%>
-<%--</script>--%>
-
 </div>
 </body>
 </html>

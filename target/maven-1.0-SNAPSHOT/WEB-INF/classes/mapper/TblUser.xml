@@ -6,11 +6,6 @@
 	<select id="findUserAll" parameterType="java.lang.Integer" resultType="com.ghb.entity.User">
 		select * from user where 1=1 LIMIT #{page},#{limit}
 	</select>
-<!--	新增数据-->
-<!--	<insert id="addUser" parameterType="com.ghb.entity.User">-->
-<!--		insert into user(uid,upass,ustate,usex,uxl)-->
-<!--		values(#{uid},#{upass},#{ustate},#{usex},#{uxl})-->
-<!--	</insert>-->
 <!--	登录-->
 	<select id="finduser" parameterType="java.util.HashMap" resultType="com.ghb.entity.User">
 	select * from user where uid=#{uid} and upass=#{upass}
@@ -22,5 +17,9 @@
         select count(*) from user
     </select>
 
+<!--	删除-->
+	<delete id="userdelt" parameterType="java.lang.String">
+		delete from user where uid=#{uid}
+	</delete>
 </mapper>
 	

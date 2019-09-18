@@ -30,4 +30,9 @@ public class UBiz implements UserBiz {
     public Integer count() {
         return userMapper.count();
     }
+
+    @Override
+    public Integer userdelt(String uid) {
+        return userMapper.userdelt(uid);
+    }
 }

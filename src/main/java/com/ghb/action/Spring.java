@@ -25,14 +25,13 @@ public class Spring {
     @Resource//通过get/set的方法进行实例化
     private UserBiz biz;
     private  Map<String,Object> map=new HashMap<String,Object>();
-
     private String cong;
     private String dao;
     private int ftid;
     private String fname;
 //    private String uname;
     private Integer page=1;//表示当前页数
-    private Integer limit=2;  //每页的记录数
+//    private Integer limit=3;  //每页的记录数
     private Integer count;   //表示总页数
 
 
@@ -71,13 +70,13 @@ public class Spring {
     //列表ajax
     @RequestMapping(value="/listajax.action", method= RequestMethod.GET, produces="application/json;charset=utf-8")
     public @ResponseBody Map<String, Object> listajax(Integer page, Integer limit, HttpServletRequest request){
-
         System.out.println("====" + request.getParameter("uname"));
         page=(page-1)*limit;
         Map<String,Object> hashMap=new HashMap<String,Object>();
+        //数据
         List<User> list =biz.libiao(page,limit);
+        //总数
         count=biz.count();
-        System.out.println(count+"////"+list+"****");
         hashMap.put("code",0);
         hashMap.put("count",count);
         hashMap.put("msg","");

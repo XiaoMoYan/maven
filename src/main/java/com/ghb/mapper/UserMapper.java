@@ -18,4 +18,5 @@ public interface UserMapper {
 
     public Integer count();
 
+    public Integer userdelt(@Param("uid")String uid);
 }
